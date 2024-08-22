@@ -1,0 +1,427 @@
+.cardCard {
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card1 {
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.topBar {
+  background-color: rgb(135, 64, 64);
+  height: 40px;
+  padding: 10px, 0px, 0px, 10px;
+  width: 160%;
+  text-align: center;
+  padding: 10px;
+}
+
+.card2 {
+  background-color: rgb(226, 226, 43);
+  text-align: center;
+}
+
+.card3 {
+  background-color: rgb(43, 226, 76);
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px 0px;
+}
+
+.Nav {
+  border-right: 1px solid black;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+
+.bg-body-tertiary {
+
+  background-color: #5a7eb0 !important;
+}
+
+.navbar-brand {
+  color: white !important;
+
+}
+
+.nav-link {
+  color: white;
+}
+
+.btn-outline-success {
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.btn-outline-success:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+
+
+
+.action1 {
+  color: #fff5ea;
+}
+
+.image1 img {
+  width: 100%;
+
+}
+
+
+
+.card {
+
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  image-resolution: 1080px;
+  justify-content: space-evenly;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.232);
+  border-radius: 20px;
+
+
+  margin-top: 20px;
+
+}
+
+.card:hover,
+.card.hovered {
+  transform: translateY(-10px);
+
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-title {
+
+  text-align: center;
+}
+
+.btn-primary {
+
+  background-color: #5a7eb0;
+  color: rgb(255, 255, 255);
+}
+
+.btn-primary:hover {
+  background-color: rgb(0, 0, 0) !important;
+
+}
+
+.list {
+  justify-content: left;
+  padding: 20px
+}
+
+.aline {
+  text-align: left;
+}
+
+.line {
+  width: 100%;
+  background-color: rgb(125, 125, 128);
+  height: 1px;
+  opacity: 40%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+
+
+}
+
+.nope {
+  padding-top: 25px;
+
+}
+
+.d-block {
+  padding-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+
+}
+
+h3 {
+  color: black;
+}
+
+h5 {
+  color: black;
+  font-size: 30px;
+}
+
+span {
+  color: #5a7eb0;
+
+}
+
+.roundimg {
+
+  border: rgb(0, 0, 0);
+  padding-top: 10px;
+  border-radius: 8px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+
+.correct {
+  padding-top: 10px;
+  border-color: #5a7eb0;
+
+}
+
+.content {
+  font-size: 50px;
+  text-align: center;
+  color: #5a7eb0;
+  padding-top: 50px;
+}
+
+.box {
+  width: 200PX;
+  height: 100px;
+  background-color: black;
+  font-size: 20px;
+}
+
+
+.lanch {
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 20px;
+  font-size: 50px;
+
+}
+
+.hifi {
+
+  padding-top: 30px;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+h6 {
+
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+
+.img-fluid {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+
+}
+
+.alin {
+  padding-top: 30px;
+  color: rgb(0, 0, 0);
+  object-fit: cover;
+  image-resolution: 1080px;
+}
+
+.alin1 {
+  padding-top: 10px;
+  color: rgba(202, 0, 0, 0.281);
+  justify-content: space-between;
+  text-align: center;
+  image-resolution: 1080px;
+
+}
+
+.h3,
+p {
+
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 40px;
+}
+
+
+.text03 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.audio {
+  padding-top: 30px;
+}
+
+.linee {
+  width: 28px;
+  height: 2px;
+  opacity: 70%;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+
+}
+
+
+.me-2 {
+  height: 40px;
+  margin-top: 30px;
+}
+
+
+
+
+.iconOuter {
+  width: 100%;
+  box-shadow: 0.5px 0.5px 5px  #5a7eb0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+
+
+}
+.content{
+  font-size: 17px ;
+  /* font-weight: 400; */
+  color: #000000;
+}
+
+.dis{
+  font-size: 13px;
+}
+
+.box {
+  margin-top: 70px;
+  width: 100%;
+  height: 135px;
+  padding-top: 25px;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgba(186, 181, 175, 0.514);
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+
+.padd {
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 10px;
+}
+
+.lastpgg {
+
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.logoo {
+  padding-top: 50px;
+   justify-content: space-between;
+}
+
+.camp {
+  padding-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+  object-fit: cover;
+}
+
+.icon {
+
+  padding-top: 30px;
+}
+
+.shop {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.Card.Text {
+  font-size: 10px;
+
+}
+
+h3,
+p {
+  font-size: 15px;
+
+}
+
+.card-img,
+.card-img-top {
+  background-color: rgba(196, 204, 204, 0.11);
+
+}
+
+.card-body {
+ justify-content: space-around;
+ padding: 19px;
+  background-color: rgba(196, 204, 204, 0.11);
+
+}
+
+.offacial {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.Lastt {
+justify-content: center;
+/* text-align: center; */
+  padding-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  background-color: rgba(149, 142, 142, 0.393);
+}
+
+b{
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul{
+  padding-top: 15px;
+}
+.colourr,Card.Text{
+  font-size: 15px;
+}
+
+.centerr{
+
+  justify-content: space-evenly;
+}
+
+
+footer ul {
+  padding-left:0px ;
+}
