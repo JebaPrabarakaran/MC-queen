@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MC-queen/static/css/main.3185b6eb.css",
+    "main.js": "/MC-queen/static/js/main.a1acc5e2.js",
+    "static/js/453.4155285a.chunk.js": "/MC-queen/static/js/453.4155285a.chunk.js",
+    "index.html": "/MC-queen/index.html",
+    "main.3185b6eb.css.map": "/MC-queen/static/css/main.3185b6eb.css.map",
+    "main.a1acc5e2.js.map": "/MC-queen/static/js/main.a1acc5e2.js.map",
+    "453.4155285a.chunk.js.map": "/MC-queen/static/js/453.4155285a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3185b6eb.css",
+    "static/js/main.a1acc5e2.js"
+  ]
+}
