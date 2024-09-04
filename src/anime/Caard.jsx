@@ -6,6 +6,7 @@ import img3 from './images/specialwatch2.jpeg'
 import img4 from './images/specialwatch3.jpeg'
 import img5 from './images/watch11.jpeg'
 import img6 from './images/watch12.jpeg'
+// import img6 from './images/watch12.jpeg'
 
 
 import Card from 'react-bootstrap/Card';
