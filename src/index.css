@@ -47,13 +47,32 @@ h1 {
   background-color: #5a7eb0 !important;
 }
 
+.navbar-expand-lg .navbar-collapse {
+
+padding: 0px;}
+
 .navbar-brand {
   color: white !important;
+  text-align: center;
 
 }
 
+
+.logoWid{
+  width: 500px !important;
+}
+.nav-item{
+  /* padding-left: 40% !important; */
+}
 .nav-link {
   color: white;
+  font-size: 20px;
+  font-weight: 500;
+  /* padding-left: 50px !important;s */
+}
+
+.logoWid{
+  padding-top: 10px;
 }
 
 .btn-outline-success {
@@ -182,9 +201,19 @@ span {
 
 .correct {
   padding-top: 10px;
-  border-color: #5a7eb0;
-
+  border-color: #5a7eb0 ;
 }
+
+.d-flex{
+  padding: 0px;
+  padding-bottom: 15px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+
+  margin: 0px;
+}
+
 
 .content {
   font-size: 50px;

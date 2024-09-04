@@ -1,53 +1,111 @@
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import React from "react";
 
 function NavBar() {
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container fluid>
-          <Navbar.Brand href="#">MC Queen</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px' }}
-              navbarScroll
-            >
-              <Nav.Link href="#action1">Home</Nav.Link>
-              {/* <Nav.Link href="#action2">Link</Nav.Link> */}
-              <NavDropdown title="Product" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="./product/watch.jsx">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
-                  Something else here
-                </NavDropdown.Item>
-              </NavDropdown>
-              {/* <Nav.Link href="#" disabled>
-                Link
-              </Nav.Link> */}
-            </Nav>
-            <Form className="d-flex mt-0">
-              <Form.Control
+      {/* <nav className="navbar navbar-expand-lg bg-body-tertiary">
+  <div className="container-fluid">
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span className="navbar-toggler-icon" />
+    </button>
+    <a className="navbar-brand" href="#">
+      MC QUEEN
+    </a>
+    <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">
+            Home
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">
+            Link
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link disabled" aria-disabled="true">
+            Disabled
+          </a>
+        </li>
+      </ul>
+      <form className="d-flex" role="search">
+        <input
+          className="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button className="btn btn-outline-success" type="submit">
+          Search
+        </button>
+      </form>
+    </div>
+  </div>
+</nav> */}
+
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="container-fluid">
+
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon" />
+          </button>
+          <div className="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Products
+                </a>
+              </li>
+
+
+
+
+            </ul>
+
+            <div className="logoWid p-0 m-0 d-flex align-items-center">
+              <a className="navbar-brand" href="#">
+                <h1 className=" p-0 m-0">MC Queen</h1>
+              </a>
+            </div>
+            <form className="d-flex" role="search">
+              <input
+                className="form-control me-2"
                 type="search"
                 placeholder="Search"
-                className="me-2 mt-0"
                 aria-label="Search"
               />
-              <Button variant="outline-success" className='mt-0'>Search</Button>
-            </Form>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+              <button className="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
-      
+
+
     </>
 
   );
