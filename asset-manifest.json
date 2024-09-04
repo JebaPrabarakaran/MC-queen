@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/MC-queen/static/css/main.3185b6eb.css",
-    "main.js": "/MC-queen/static/js/main.a1acc5e2.js",
+    "main.css": "/MC-queen/static/css/main.6176a278.css",
+    "main.js": "/MC-queen/static/js/main.c40a419b.js",
     "static/js/453.4155285a.chunk.js": "/MC-queen/static/js/453.4155285a.chunk.js",
+    "static/media/specialwatch3.jpeg": "/MC-queen/static/media/specialwatch3.a46659504fd3b5bd7142.jpeg",
+    "static/media/watch12.jpeg": "/MC-queen/static/media/watch12.883399dffe180561df57.jpeg",
+    "static/media/watch10.jpeg": "/MC-queen/static/media/watch10.6481f95ccfdcbb6a1db1.jpeg",
+    "static/media/specialwatch2.jpeg": "/MC-queen/static/media/specialwatch2.3c38fb0f6e7286dc1057.jpeg",
+    "static/media/watch11.jpeg": "/MC-queen/static/media/watch11.3b1da0f6bacaa5b4c03d.jpeg",
+    "static/media/speed17.jpeg": "/MC-queen/static/media/speed17.112e5ff4aa1791fcadc1.jpeg",
+    "static/media/touch2.jpeg": "/MC-queen/static/media/touch2.ae4c1a7eb77bc5db15cb.jpeg",
     "index.html": "/MC-queen/index.html",
-    "main.3185b6eb.css.map": "/MC-queen/static/css/main.3185b6eb.css.map",
-    "main.a1acc5e2.js.map": "/MC-queen/static/js/main.a1acc5e2.js.map",
+    "main.6176a278.css.map": "/MC-queen/static/css/main.6176a278.css.map",
+    "main.c40a419b.js.map": "/MC-queen/static/js/main.c40a419b.js.map",
     "453.4155285a.chunk.js.map": "/MC-queen/static/js/453.4155285a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3185b6eb.css",
-    "static/js/main.a1acc5e2.js"
+    "static/css/main.6176a278.css",
+    "static/js/main.c40a419b.js"
   ]
 }
